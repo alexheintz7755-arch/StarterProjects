@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Text;
 
 namespace ConsoleApp1{
@@ -16,6 +17,8 @@ namespace ConsoleApp1{
 
             double amountMade = hours * money;
             Console.WriteLine($"You made ${amountMade} in {hours} hours!");
+            double load = money * 1000;
+            Console.WriteLine("If you worked 1000 hours you would make $" + load + "!");
         }
 
         // Helper method for safe numeric input

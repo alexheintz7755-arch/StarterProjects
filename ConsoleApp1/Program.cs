@@ -13,6 +13,7 @@ namespace ConsoleApp1
 
 
 
+            new CountTo1000();
 
 
 
@@ -22,9 +23,8 @@ namespace ConsoleApp1
 
 
             // THIS CALCULATES HOW MUCH YOU MADE WORKING A CERTAIN AMOUNT OF HOURS.
-            // new AmountMadeAtWork();
-
-
+            new AmountMadeAtWork();
+     
 
 
             // I used a different class to intialize this program. It is basically calling it like a CONFIG.
@@ -33,15 +33,16 @@ namespace ConsoleApp1
 
 
             Console.WriteLine(game1.title + " was made by " + game1.studio + " in " + game1.year );
-
-
+            Console.ReadLine();
 
             */
+
+            
 
             //FOR AND WHILE LOOPS 
 
 
-            /*
+            
             int number = 4;
             int power = 5;
             int answer = 1;
@@ -54,7 +55,7 @@ namespace ConsoleApp1
                 Console.WriteLine(answer);
             }
             Console.ReadLine();
-            */
+            
 
 
 
@@ -62,7 +63,7 @@ namespace ConsoleApp1
 
             // Calculator
 
-            /*
+            
             Console.WriteLine("Enter your first number: ");
             double firstNumber = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter your operator (+, -, *, /) ");
@@ -93,14 +94,14 @@ namespace ConsoleApp1
                 Console.WriteLine(firstNumber / secondNumber);
             }
 
-            */
+            Console.ReadLine();
 
 
 
             // STRINGS
 
 
-            /*
+            
          
             Console.WriteLine("Enter your name: ");
             string name = Console.ReadLine();
@@ -121,7 +122,7 @@ namespace ConsoleApp1
             Console.WriteLine("Your favorite color is " + color + ".");
             Console.WriteLine("But next year you will be " + age + "."  );
             Console.ReadLine();
-            */
+            
 
         }
 }
